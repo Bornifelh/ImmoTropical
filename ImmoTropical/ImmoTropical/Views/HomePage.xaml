@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Liste des recherches"
+    x:Class="ImmoTropical.Views.HomePage">
+      <ContentPage.Content>
+        
+        <ListView x:Name="MalistViewPromo">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Margin="15,0" >
+                            <Image Source="{Binding Image}"/>
+                            <Label Text="{Binding Nom}" VerticalOptions="Center" FontSize="25" HorizontalOptions="FillAndExpand" TextColor="Black" />
+                            <Label Text="{Binding Prix}" VerticalOptions="Center" FontAttributes="Bold" FontSize="16" Padding="10" TextColor="Red"/>
+                            <ImageButton Source="plus_petit.png" Background="red" BorderColor="Red"/>
+                        </StackLayout>
+                        
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dVPu1dGNlpxGGRRQOSPqHiPg1XI+yakbCYnz/bXSIko8LxSUv0zho+4AQ3Kae7dY1eLHGj00XBYI+3jqHZFVbg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DerlyMOUPEPIDI\\source\\repos\\ImmoTropical\\ImmoTropical\\ImmoTropical.iOS\\ImmoTropical.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DerlyMOUPEPIDI\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\DerlyMOUPEPIDI\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\DerlyMOUPEPIDI\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
